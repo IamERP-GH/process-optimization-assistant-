@@ -7,7 +7,8 @@ from recommender import generate_recommendation
 
 st.set_page_config(page_title="Process Optimization Assistant", layout="wide")
 
-st.title("AI-style Industrial Process Optimization Assistant")
+st.title("Industrial Process Optimization Assistant Program")
+st.title("Eric Peng")
 
 st.write(
     "This tool evaluates process performance, energy use, operating cost, "
@@ -95,7 +96,7 @@ with colD:
     ax.set_title("Cost vs Emissions")
     st.pyplot(fig)
 
-st.header("AI-style Recommendation")
+st.header("Recommendations: ")
 
 recommendations = generate_recommendation(
     current,
