@@ -8,7 +8,7 @@ from recommender import generate_recommendation
 st.set_page_config(page_title="Process Optimization Assistant", layout="wide")
 
 st.title("Industrial Process Optimization Assistant Program")
-st.title("Eric Peng")
+st.title("GitHub@IamERP")
 
 st.write(
     "This tool evaluates process performance, energy use, operating cost, "
